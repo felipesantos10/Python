@@ -1,0 +1,56 @@
+#Faça um programa que leia um numero inteiro qualquer e mostre na tela a sua tabuada
+print("***TABUADA***")
+
+n = int(input("\nDigite um numero? "))
+s1 = (n + 1)  
+s2 = (n + 2) 
+s3 = (n + 3) 
+s4 = (n + 4) 
+s5 = (n + 5) 
+s6 = (n + 6) 
+s7 = (n + 7)
+s8 = (n + 8) 
+s9 = (n + 9) 
+s10 = (n + 10)
+
+print("A tabuada  de adicão do numero  {} é: \n{} + 1 = {} \n{} + 2 = {} \n{} + 3 = {} \n{} + 4 = {} \n{} + 5 = {} \n{} + 6 = {} \n{} + 7 = {} \n{} + 8 = {} \n{} + 9 = {} \n{} + 10 = {}".format(n,n,s1,n,s2,n,s3,n,s4,n,s5,n,s6,n,s7,n,s8,n,s9,n,s10))
+
+
+sub1 = (n - 1)   
+sub2 = (n - 2)  
+sub3 = (n - 3)   
+sub4 = (n - 4) 
+sub5 = (n - 5)   
+sub6 = (n - 6)   
+sub7 = (n - 7)   
+sub8 = (n - 8)   
+sub9 = (n - 9)   
+sub10 = (n - 10)  
+
+print("\nA tabuada  de subtração do numero  {} é: \n{} - 1 = {} \n{} - 2 = {} \n{} - 3 = {} \n{} - 4 = {} \n{} - 5 = {} \n{} - 6 = {} \n{} - 7 = {} \n{} - 8 = {} \n{} - 9 = {} \n{} - 10 = {}".format(n,n,sub1,n,sub2,n,sub3,n,sub4,n,sub5,n,sub6,n,sub7,n,sub8,n,sub9,n,sub10))
+
+m1 = (n * 1)  
+m2 = (n * 2) 
+m3 = (n * 3) 
+m4 = (n * 4) 
+m5 = (n * 5) 
+m6 = (n * 6) 
+m7 = (n * 7)
+m8 = (n * 8) 
+m9 = (n * 9) 
+m10 = (n * 10)
+
+print("\nA tabuada  de multiplicação do numero  {} é: \n{} x 1 = {} \n{} x 2 = {} \n{} x 3 = {} \n{} x 4 = {} \n{} x 5 = {} \n{} x 6 = {} \n{} x 7 = {} \n{} x 8 = {} \n{} x 9 = {} \n{} x 10 = {}".format(n,n,m1,n,m2,n,m3,n,m4,n,m5,n,m6,n,m7,n,m8,n,m9,n,m10))
+
+d1 = (n / 1)  
+d2 = (n / 2) 
+d3 = (n / 3) 
+d4 = (n / 4) 
+d5 = (n / 5) 
+d6 = (n / 6) 
+d7 = (n / 7)
+d8 = (n / 8) 
+d9 = (n / 9) 
+d10 = (n / 10)
+
+print("\nA tabuada  de divisão do numero  {} é: \n{} / 1 = {} \n{} / 2 = {} \n{} / 3 = {} \n{} / 4 = {} \n{} / 5 = {} \n{} / 6 = {} \n{} / 7 = {} \n{} / 8 = {} \n{} / 9 = {} \n{} / 10 = {}".format(n,n,d1,n,d2,n,d3,n,d4,n,d5,n,d6,n,d7,n,d8,n,d9,n,d10))
