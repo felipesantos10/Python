@@ -16,12 +16,14 @@ if  inicio == 'sim':
     [1]  papel
     [2]  tesoura
     Qua a sua opção?   ''' ))
+
     print('JO')
     sleep(1)
     print('KEN')
     sleep(1)
     print('PO')
     sleep(1)
+    
     #resposta do usuario
     print('=*='*20)
     print('Você jogou {}'.format(itens[humano]))    
